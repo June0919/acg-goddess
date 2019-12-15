@@ -1,0 +1,180 @@
+.admin{
+  width: 100%;
+  height: 100%;
+  background-image:url('../../assets/images/ia_500000004.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+/* 头部样式 */
+.admin-header{
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.admin-header img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.admin-header span{
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 55px;
+  left: 125px;
+  color: #03a9f4;
+  text-shadow:0 0 8px #fff;
+  font-style: italic;
+}
+/* 内容区样式 */
+.ant-carousel{
+  margin-top: 50px;
+}
+.ant-tabs-bar{
+  opacity: .9;
+  background-color: rgba(74, 74, 74, 0.83);
+}
+.admin-content{
+  width: 75%;
+  margin: -52px auto 0;
+  opacity: 1;
+}
+.ant-tabs-nav-scroll{
+  height: 54px;
+} 
+.ant-tabs-nav .ant-tabs-tab {
+  font-size: 20px;
+  color: #fff;
+}
+.ant-tabs-nav .ant-tabs-tab-active{
+  font-size: 20px;
+  color: #03a9f4;
+}
+
+.ant-tabs-nav .ant-tabs-tab:hover{
+  color: #03a9f4;
+}
+.ant-tabs-nav .ant-tabs-ink-bar {
+  color: #03a9f4;
+}
+/* 轮播图样式 */
+.ant-carousel .slick-slide {
+  width: 65%;
+  text-align: center;
+  height: 350px;
+  line-height: 350px;
+  background: #364d79;
+  overflow: hidden;
+}
+.ant-carousel .slick-slide img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+/* 头部登录样式 */
+.ant-tabs-tabpane{
+  position: relative;
+}
+.adminHeaderLogin{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.adminHeader{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.adminHeaderLeft{
+  font-size: 18px;
+}
+.adminHeaderRight{
+  text-align: center;
+}
+.ant-btn{
+  padding:0;
+}
+.ant-btn-background-ghost.ant-btn-link{
+  color: #242221;
+  vertical-align: middle;
+  font-size: 16px;
+}
+svg:not(:root){
+  vertical-align: middle;
+}
+/* 列表样式 */
+.admin-list{
+  width: 100%;
+  position: relative;
+  background-color: rgba(251, 245,229,0.6);
+}
+.adminListItem{
+  width: 65%;
+  padding: 30px;
+  margin-top:20px;
+  background-color: rgba(249, 244,241,0.7);
+}
+/* 列表右侧用户信息样式 */
+.ant-card-head {
+  border: none;
+  font-size: 20px;
+}
+
+.adminListRight{
+  width: 33%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ant-card{
+  width: 60%;
+  margin: 0 auto;
+  background: none;
+  text-align: center;
+}
+.ant-card p{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.ant-card-head button{
+  
+}
+.ant-card p,.ant-card button{
+  margin: 10px 15px 0;
+  text-align: center;
+}
+
+.listItemHeader{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.listItemHeader h3{
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #a2a4e2;
+  color: #fff;
+  margin-right: 20px ;
+}
+.listItemTitle{
+  font-size: 18px;
+  font-weight: bold;
+  color: #242221;
+}
+.listItemImg{
+  width: 100%;
+  height: 500px;
+}
+.listItemPeriod{
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 2;
+}
+.listItemFooter span{
+  margin: 0 10px;
+}
